@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import WeatherContainer from './WeatherContainer';
-import PantsImage from './PantsPic.jpg'
 
 class Main extends React.Component {
   state={

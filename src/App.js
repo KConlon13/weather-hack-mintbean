@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import WeatherContainer from './WeatherContainer';
-import PantsImage from './PantsPic.jpg'
 import Main from './Main'
 
 class App extends React.Component {
