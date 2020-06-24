@@ -1,16 +1,22 @@
+html {
+  height: 100%;
+  margin: 0;
+}
+
 .App {
   text-align: center;
   /* margin: 100px; */
   background-image: url(https://st2.cannypic.com/thumbs/12/127101_632_canny_pic.jpg);
+  height: 800px;
 }
 
 .WeatherContainer {
   /* align-content: center;
   align-items: center; */
-  margin-top: 50px;
-  margin-right: 200px;
-  margin-left: 200px;
-
+  /* margin-top: 50px; */
+  margin-right: 440px;
+  margin-left: 440px;
+  padding-top: 40px;
   /* align-self: center; */
 }
 
@@ -18,6 +24,7 @@
   width: 100%;
   margin-top: 500px;
   flex-direction: unset;
+  padding: 20px;
 }
 
 #app-title {
@@ -34,4 +41,43 @@
 .Main {
   width: 100%;
   height: 100%;
+}
+
+.other-content {
+  margin-top: 20px;
+}
+
+.ui.header {
+  padding-top: 15px;
+}
+
+#site-title {
+  color: white;
+  text-shadow: 3px 5px rgba(0, 128, 128);
+  font-size: 45px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 2em;
+  padding-top: 20px;
+}
+
+/* .ui.content {
+  border-top: none;
+  border: none;
+  border-top-color: 0px;
+} */
+.ui.card>.content, .ui.cards>.card>.content {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border: none;
+  border-top: none;
+  background: 0 0;
+  margin: 0;
+  padding: 1em 1em;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 1em;
+  border-radius: 0;
 }

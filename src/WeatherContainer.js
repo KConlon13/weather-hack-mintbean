@@ -36,14 +36,14 @@ class WeatherContainer extends React.Component {
               <h1 class="header">{moment().format('LT')}</h1>
             </div>
             <div class="content">
-              <div class="ui small feed">
+              {/* <div class="ui small feed"> */}
                 <div class="content">
                   <img src={this.props.weatherCurrent.weather_icons}/>
                   <div class="ui subheader">{fahrenheit}℉ & {this.props.weatherCurrent.weather_descriptions}</div>
                    <div class="ui subheader">{fahrenheit > 65 ? randomMovieGenerator(pantsNeededSayings) : "Ya might need some pants today :/"}</div>
                 </div>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>  
         );

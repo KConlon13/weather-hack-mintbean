@@ -12,6 +12,7 @@ class App extends React.Component {
       <div className="App">
         {/* <h1 id="app-title">The "Do I actually NEED to wear pants today?" Weather App</h1> */}
         {/* <img id="background" src={PantsImage}/> */}
+        <h1 id="site-title">The "Do I need to wear pants today?" Weather Service</h1>
         <Main/>
       </div>
     );
