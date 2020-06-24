@@ -1,38 +1,37 @@
 .App {
   text-align: center;
+  /* margin: 100px; */
+  background-image: url(https://st2.cannypic.com/thumbs/12/127101_632_canny_pic.jpg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.WeatherContainer {
+  /* align-content: center;
+  align-items: center; */
+  margin-top: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+
+  /* align-self: center; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ui.card {
+  width: 100%;
+  margin-top: 500px;
+  flex-direction: unset;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#app-title {
+  float: left;
+  margin-left: 0;
 }
 
-.App-link {
-  color: #61dafb;
+#background {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Main {
+  width: 100%;
+  height: 100%;
 }
