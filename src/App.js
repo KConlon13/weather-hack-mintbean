@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Weather Hack App deployed on Heroku Yoooo</h1>
+      <h1>Weather Hack App deployed on Heroku Yoooo Son</h1>
     </div>
   );
 }
